@@ -28,7 +28,9 @@ body{
   display: inline-block;
   white-space: nowrap;
   max-width: 100%;
+  width: 100%;
   cursor: pointer;
+  user-select: none;
 }
 
 .selected_option::-webkit-scrollbar{
@@ -87,6 +89,14 @@ body{
 
 .arrow_wrapper {
   float: right;
+}
+
+.arrow_botttom{
+  float: right;
+}
+
+.arrow_botttom svg{
+  width: 10px;
 }
 
 .nested_dropdown{
