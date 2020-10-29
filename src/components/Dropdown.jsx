@@ -58,7 +58,7 @@ const Dropdown = ({ data }) => {
           </div>
           {showDropdownItem()}
           <div className="button_wrapper">
-            <button className="btn_cancel">Cancel</button>
+            <button className="btn_cancel" onClick={()=> setOpen(null)}>Cancel</button>
             <button className="btn_add">Add</button>
           </div>
         </div>
