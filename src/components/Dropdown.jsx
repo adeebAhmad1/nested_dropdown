@@ -3,7 +3,7 @@ import DropdownItem from "./DropdownItem";
 
 const Dropdown = ({ data }) => {
   const [open, setOpen] = useState(null);
-  const [active, setActive] = useState(data[0].item);
+  const [active, setActive] = useState("ICD-10 Code");
   const [value, setValue] = useState("");
   const showDropdownItem = () => {
     const mydata = data.filter((el) => {
